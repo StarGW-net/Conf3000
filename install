@@ -1,0 +1,32 @@
+echo "*Installing conf3000...."
+dir=`pwd`
+sed 's!TIMEFILE .*$!TIMEFILE "'$dir'/timefile"!
+     s!SERVERPIPE .*$!SERVERPIPE "'$dir'/serverpipe"!
+     s!SLAVEPIPE .*$!SLAVEPIPE "'$dir'/slavepipe"!
+     s!USERLIST .*$!USERLIST "'$dir'/user.list"!
+     s!USERLOG .*$!USERLOG "'$dir'/user.log"!
+     s!BANFILE .*$!BANFILE "'$dir'/banfile"!
+     s!CHANNELS .*$!CHANNELS "'$dir'/channels"!
+     s!HELP .*$!HELP "'$dir'/help"!
+     s!ALIASFILE .*$!ALIASFILE "'$dir'/user.alias"!
+     s!SERVERPID .*$!SERVERPID "'$dir'/serverpid"!
+     s!SERVER .*$!SERVER "'$dir'/server \&"!
+     s!MSGSFILE .*$!MSGSFILE "'$dir'/msgs"!
+     s!HEADER .*$!HEADER "'$dir'/header"!
+     s!PAGE .*$!PAGE "'$dir'/request"!
+     s!UNIXWHO .*$!UNIXWHO "/bin/who"!
+     s!TIME .*$!TIME "/bin/date"!
+     s!INFOFILE .*$!INFOFILE "'$dir'/info"!' $dir/workshop/gubbings.h > $dir/gub1.h
+/bin/rm $dir/workshop/gubbings.h
+/bin/mv $dir/gub1.h $dir/workshop/gubbings.h
+echo "-gubbings.h updated"
+echo -n "-making pipes..."
+/etc/mknod serverpipe p
+/etc/mknod slavepipe p
+echo "done"
+cd $dir/workshop
+make conf3
+make server2
+cd $dir
+echo "Finished!"
+

@@ -1,0 +1,41 @@
+#define FUDGE 1000
+#define CHANLIST "/v2/cs/dad2/conf3/chanlist"
+#define SERVERPIPE "/v2/cs/dad2/conf3/serverpipe"
+#define AUTOREBOOT "/v2/cs/dad2/Alphaks/reboot"
+#define SLAVEPIPE "/v2/cs/dad2/conf3/slavepipe"
+#define USERLIST "/v2/cs/dad2/conf3/user.list"
+#define USERLOG "/v2/cs/dad2/conf3/user.log"
+#define BANFILE "/v2/cs/dad2/conf3/banfile"
+#define CHANNELS "/v2/cs/dad2/conf3/channels"
+#define HELP "/v2/cs/dad2/conf3/help"
+#define RESFILE "/v2/cs/dad2/conf3/resfile"
+#define EOM '\0'
+#define ALIASFILE "/v2/cs/dad2/conf3/user.alias"
+#define SERVERPID "/v2/cs/dad2/conf3/serverpid"
+#define BLANK "                                                  "
+#define MAXUSERS 20
+#define MAXCHAN 100
+#define SERVER "/v2/cs/dad2/conf3/server &"
+#define WELCOME "cp /v2/cs/is2/conf3/welcome.msgs /v2/cs/is2/conf3/msgs"
+#define MSGSFILE "/v2/cs/dad2/conf3/msgs"
+#define WHOIS "/v2/cs/dad2/Alphaks/whois"
+#define SCREEN 79
+#define TRUE 1
+#define FALSE 0
+#define RETURN '\n'
+#define MAX 255
+#define EOM '\0'
+#define ESC '\33'
+#define DEL '\177'
+#define ERASE '\010'
+#define SIZE 512
+#define TIMEOUT 180
+#define HEADER "/v2/cs/dad2/conf3/header"
+#define PAGE "/v2/cs/dad2/conf3/page"
+#define UNIXWHO "/v2/cs/dad2/Alphaks/us"
+#define TIME "/v2/cs/ecs2/bin/etime"
+#define TIMEFILE "/v2/cs/dad2/conf3/timefile"
+#define INFOFILE "/v2/cs/dad2/conf3/info"
+#define SEOF '\25'
+#define RDN "/users/cs/sw2/rdn/rdn"
+#define CHECKN "/users/cs/sw2/rdn/checkn"

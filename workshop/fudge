@@ -1,0 +1,4 @@
+cc -c XXslave14.c
+cc -o fu XXslave14.o tailer11.o
+chmod 7111 fu
+mv fu ../

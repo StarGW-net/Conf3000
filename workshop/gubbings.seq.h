@@ -1,0 +1,33 @@
+#define SERVERPIPE "/users/cs/sw2/conf3/serverpipe"
+#define SLAVEPIPE "/users/cs/sw2/conf3/slavepipe"
+#define USERLIST "/users/cs/sw2/conf3/user.list"
+#define USERLOG "/users/cs/sw2/conf3/user.log"
+#define BANFILE "/users/cs/sw2/conf3/banfile"
+#define CHANNELS "/users/cs/dad2/Alphaks/Glantri/channels"
+#define HELP "/users/cs/sw2/conf3/help"
+#define EOM '\0'
+#define ALIASFILE "/users/cs/sw2/conf3/user.alias"
+#define SERVERPID "/users/cs/sw2/conf3/serverpid"
+#define BLANK "                                                  "
+#define MAXUSERS 10
+#define MAXCHAN 100
+#define SERVER "/users/cs/sw2/conf3/server &"
+#define MSGSFILE "/users/cs/sw2/conf3/msgs"
+#define SCREEN 79
+#define TRUE 1
+#define FALSE 0
+#define RETURN '\n'
+#define MAX 255
+#define EOM '\0'
+#define ESC '\33'
+#define DEL '\177'
+#define ERASE '\010'
+#define SIZE 512
+#define TIMEOUT 180
+#define HEADER "/users/cs/sw2/conf3/header"
+#define PAGE "/users/cs/sw2/conf3/request"
+#define UNIXWHO "/users/cs/sw2/utl/user.code"
+#define TIME "/users/cs/sw2/crypt/etime"
+#define TIMEFILE "/users/cs/sw2/conf3/timefile"
+#define INFOFILE "/users/cs/sw2/conf3/info"
+#define SEOF '\25'

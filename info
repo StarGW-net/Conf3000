@@ -1,0 +1,67 @@
+
+Info File: (which you are deemed to have read and understood 8-) )
+           /*And pay attention - we may be asking questions later */
+
+  This is conf3000 the new version of the well-loved conferencing system. It
+has been in use for quite a while.  Most bugs that have been found have been
+solved, programmed round, fudged or taken off-line.  However if you do (by a
+freak of nature or extreme bad-luck) discover a bug or just think of how 
+something could be done better please mail Prophet (sw2) or Sinj (dad2). 
+Ta v. mucho.
+
+  Conf3000 takes up very little file space and uses a negligeble amount of CPU
+time when running. The idea is for this to be a logical extention of the write
+command. It just allows more users to talk at once. It's especially handy for
+those Computer Science Department group projects. :-)
+
+  The idea is that channel 0 is a public channel. Whenever someone logs on or
+moves to this channel from another then the last 10 messages are shown. This
+is not the case on channels 1-99. Each of these can be locked for privacy.
+Some channels are now invite-only, which means that only certain people can
+go straight on to these channels, if your not on the invite list you will
+need to be invited on (via .* ) by a person already on that channel.
+
+  All system messages start with a '*' this is to distinguish them from
+'fake' system messages that users try to do with atmospheres.
+
+  The '.r' request works for Sequent usernames and known chatnames.
+
+  Support files: 
+
+	 ~dad2/Alphaks/onchat  -  tells you who's on.
+	 ~is2/a.out [-n]       -  monitors chat for you [noise]
+  	 ~dad2/Alphaks/thumb   -  get the low down on a user
+	 ~dad2/Alpaks/us [-gu] -  chatname userlist
+	 (also check out the rest of the stuff in ~dad2/Alphaks)
+
+
+  To get those flashy login and logout messages read the info about it in
+~dad2/Alphaks/alt
+
+  There is a flag set to allow this feature and can be reset so please don't
+put control characters in the messages. Also the chatIO messages should be
+explicit. ie. whether it's a log on or a log off. At the risk of sounding like
+the CC if ya don't we'll reset that particular flag.
+
+ If you are a 'registered' user (and it doesn't cost 10 pounds and is in
+Bradford and runs off with your money) ie. have a chatname, can save '.a'
+aliases etc, then if you put a yellow pages entry in a file called .ypIO in
+your top level directory with read rights to everybody Bob's ya uncle.
+ Put a bit of info about yourself in it, so we can all get to know yer better. 
+
+  The program should take care of all crashes apart from itself. If you crash
+the program and it hasn't registered the crash yet you can reconnect simply by
+running the program again. You will be connected exactly as found. Same channel
+and status. It will even deal with a sequent crash, honest guv.
+
+  There's a timeout feature which will throw a user off after a considerable
+period of inactivity (after singing Stairway To Heaven live).
+
+ Anyone sending a nice channel description to Sinjy can have their on channel,
+with an invite list, if you wish.  When mailing the descriptions don't forget
+to include the channels title (for .&), the prefered channel number and also
+your age and telephone number (incase you win the Blue Peter prize for best
+channel) 8-)
+
+ And BTW, you can now press 'q' at any [Strike A Key ...] message if your
+bored with reading all the information. 
